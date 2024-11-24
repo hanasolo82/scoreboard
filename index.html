@@ -2,12 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Scoreboard</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="container" class="container">
+      <div>
+          <h3 id="title" class="title">
+            HOME
+          </h3>
+          <div id="number-box" class="number-box">
+            18
+          </div>
+          <div id="button-box" class="button-box">
+            <button>+1</button>
+            <button>+2</button>
+            <button>+3</button>
+          </div>
+          
+      </div>
+      <div>
+          <h3>GUEST</h3>
+      </div>
+  </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
